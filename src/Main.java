@@ -1,5 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+
+        Site site = new Site(" Safari ","leetcode.com","Coding");
+        System.out.println(site);
+
+
     }
 }

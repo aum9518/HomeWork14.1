@@ -1,14 +1,21 @@
-public class Browaer {
+public class Browser {
     String name;
 
-    public Browaer() {
+    public Browser() {
     }
 
-    public Browaer(String name) {
+    public Browser(String name) {
         this.name = name;
     }
 
-    public void browser(){
-        System.out.println("Browser opened");
+    public String browser(){
+        return "Browser opened";
+    }
+
+    @Override
+    public String toString() {
+        return "Browser{" +
+                "name='" + name + '\'' +
+                '}';
     }
 }
