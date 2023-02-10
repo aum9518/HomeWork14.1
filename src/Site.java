@@ -30,7 +30,7 @@ public class Site extends Browser {
    }
 
     public String site(){
-        return "Go to site";
+        return " Go to site";
     }
     public String typeAddres(){
         return "This is coding site";
@@ -41,6 +41,6 @@ public class Site extends Browser {
         return browser()+", name='" + name + '\''+" Site{" +
                 "address='" + address + '\'' +
                 ", typeAddress='" + typeAddress + '\'' +
-                '}'+site();
+                '}'+site()+" "+typeAddres();
     }
 }
